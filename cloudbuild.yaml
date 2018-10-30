@@ -1,3 +1,5 @@
 steps:
 - name: 'gcr.io/cloud-builders/mvn'
-  args: ['install']
+  args: ['install', '-P', 'test']
+  dir: 'HelloWorld'
+# TODO setup Apigee account secret using encrypted variables
