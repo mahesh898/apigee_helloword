@@ -1,5 +1,10 @@
+#steps:
+#- name: 'gcr.io/cloud-builders/mvn'
+ # args: ['install', '-P', 'test']
+  #dir: 'HelloWorld'
+# TODO setup Apigee account secret using encrypted variables
 steps:
 - name: 'gcr.io/cloud-builders/mvn'
-  args: ['install', '-P', 'test']
+  entrypoint: 'bash'
+  args: ['-c', 'mvn install -Ptest -Dusername=maheshdevops88@gmail.com -Dpassword=Mahesh@123']
   dir: 'HelloWorld'
-# TODO setup Apigee account secret using encrypted variables
