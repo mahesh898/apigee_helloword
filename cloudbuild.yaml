@@ -6,5 +6,5 @@
 steps:
 - name: 'gcr.io/cloud-builders/mvn'
   entrypoint: 'bash'
-  args: ['-c', 'mvn install -Ptest -Dusername=maheshdevops88@gmail.com -Dpassword=Mahesh@123']
+  args: ['-c', 'mvn apigee-enterprise:deploy -Ptest -Dusername=maheshdevops88@gmail.com -Dpassword=Mahesh@123']
   dir: 'HelloWorld'
