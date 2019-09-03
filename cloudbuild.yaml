@@ -14,5 +14,4 @@ steps:
 secrets:
 - kmsKeyName: projects/true-source-244117/locations/global/keyRings/password/cryptoKeys/password
   secretEnv:
-    PASSWORD: CiQAZy74TpjCjR2hY9+uuP6fg/s9q7tJmufNbTyTJ3SNIpixM9YSLQACTr7sqhpnuKuuNKFpG+bi
-Z5DKmlw1YVzS5G1B1oBvTiU+GHHkTKrWpzxnrw==
+    PASSWORD: CiQAZy74Tvw1FHA2PRjIwyTlF8hQrSqLF+tbsmuWJlPRc2xu8UESMwACTr7sGAc7H7YDqn7L1P7nnp2Dp4DyUGUWbSK3K3KGASAKtP0bDt6GtAU7aTflowuoRQ==
