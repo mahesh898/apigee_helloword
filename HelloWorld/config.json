@@ -1,7 +1,7 @@
 {
     "configurations": [
         {
-            "name": "sit",
+            "name": "prod",
             "policies": [],
             "proxies": [],
             "targets": []
