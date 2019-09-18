@@ -64,9 +64,9 @@
     </build>
     <profiles>
         <profile>
-            <id>test</id>
+            <id>prod</id>
             <properties>
-                <apigee.profile>test</apigee.profile>
+                <apigee.profile>prod</apigee.profile>
                 <apigee.hosturl>https://api.enterprise.apigee.com</apigee.hosturl>
                 <apigee.apiversion>v1</apigee.apiversion>
                 <apigee.org>maheshdevops88-eval</apigee.org>
